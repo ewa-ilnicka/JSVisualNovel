@@ -1,0 +1,27 @@
+img {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    transform: translate(-0, -100%);
+    height: 90vh;
+    max-height: 100vh;
+}
+
+.shy {
+    display: none;
+}
+
+.textBoxContent {
+    text-align: center;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+p {
+    margin-top: 2px;
+    color: white;
+}
+
+.introBlush {
+    display: none;
+}

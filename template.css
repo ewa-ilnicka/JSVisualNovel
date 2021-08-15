@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+}
+
+body {
+    background-image: url('resources/images/fantasy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100vh;
+}
+
+.textBox {
+    background-image: url('resources/images/textbox.png');
+    background-color: rgb(75, 0, 130, 0.5);
+    background-size: cover;
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    height: 20vh;
+}
+
+p {
+    text-align: center;
+    margin-top: 3rem;
+}

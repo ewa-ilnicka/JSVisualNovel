@@ -7,6 +7,9 @@
 
 body {
     height: 90vh;
+    background-image: url('resources/images/fantasy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -19,13 +22,34 @@ body {
 
 .character {
     max-width: 80%;
-}
-
-img {
-    max-width: 100%;
     border: none;
 }
 
-img:hover {
+.character:hover {
     border: chartreuse 2px solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+
+
+p {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5%;
+    margin: 10%;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
 }
